@@ -8,7 +8,7 @@ export default defineConfig({
 	plugins: [react()],
 	build: {
 		lib: {
-			entry: resolve("src", "component/index.ts"),
+			entry: resolve("src", "components/index.ts"),
 			name: "ReactViteLibrary",
 			formats: ["es", "umd"],
 			fileName: (format) => `my-test-library.${format}.js`
