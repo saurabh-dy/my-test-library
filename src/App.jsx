@@ -4,7 +4,7 @@ import { Game } from "./components/Game";
 import { store } from "./app/store";
 import { Provider } from "react-redux";
 
-function App() {
+export function App() {
 	return (
 		<Provider store={store}>
 			<div
@@ -15,5 +15,3 @@ function App() {
 		</Provider>
 	);
 }
-
-export default App;
